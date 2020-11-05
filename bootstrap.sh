@@ -1,6 +1,5 @@
 #!/bin/bash
 #This bootstrap script installs Git, configures it, and installs Docker and runs a Jenkins container.
-
 # Git installation
 wget https://github.com/git/git/archive/v2.29.1.tar.gz -O git.tar.gz
 tar -zxf git.tar.gz
